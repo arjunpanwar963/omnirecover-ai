@@ -1,0 +1,502 @@
+[
+    {
+        "transaction_id": "sub_fail_100",
+        "customer_name": "Rahul Sharma",
+        "phone": "+919876598727",
+        "amount_inr": 1499,
+        "failure_type": "subscription_mandate",
+        "error_code": "UPI_TIMEOUT",
+        "days_overdue": 1,
+        "user_intent": "STOP"
+    },
+    {
+        "transaction_id": "sub_fail_101",
+        "customer_name": "Anjali Desai",
+        "phone": "+919876548515",
+        "amount_inr": 999,
+        "failure_type": "subscription_mandate",
+        "error_code": "UPI_TIMEOUT",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_102",
+        "customer_name": "Karan Malhotra",
+        "phone": "+919876590347",
+        "amount_inr": 999,
+        "failure_type": "subscription_mandate",
+        "error_code": "MANDATE_EXPIRED",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_103",
+        "customer_name": "Karan Malhotra",
+        "phone": "+919876580144",
+        "amount_inr": 499,
+        "failure_type": "subscription_mandate",
+        "error_code": "MANDATE_EXPIRED",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_104",
+        "customer_name": "Rahul Sharma",
+        "phone": "+919876538135",
+        "amount_inr": 499,
+        "failure_type": "subscription_mandate",
+        "error_code": "MANDATE_EXPIRED",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_105",
+        "customer_name": "Kavita Verma",
+        "phone": "+919876540315",
+        "amount_inr": 499,
+        "failure_type": "subscription_mandate",
+        "error_code": "INSUFFICIENT_FUNDS",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_106",
+        "customer_name": "Priya Singh",
+        "phone": "+919876535535",
+        "amount_inr": 499,
+        "failure_type": "subscription_mandate",
+        "error_code": "INSUFFICIENT_FUNDS",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_107",
+        "customer_name": "Neha Gupta",
+        "phone": "+919876585044",
+        "amount_inr": 499,
+        "failure_type": "subscription_mandate",
+        "error_code": "INSUFFICIENT_FUNDS",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_108",
+        "customer_name": "Sanjay Kumar",
+        "phone": "+919876594485",
+        "amount_inr": 999,
+        "failure_type": "subscription_mandate",
+        "error_code": "UPI_TIMEOUT",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_109",
+        "customer_name": "Rohan Das",
+        "phone": "+919876569738",
+        "amount_inr": 999,
+        "failure_type": "subscription_mandate",
+        "error_code": "INSUFFICIENT_FUNDS",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_1010",
+        "customer_name": "Karan Malhotra",
+        "phone": "+919876516501",
+        "amount_inr": 1499,
+        "failure_type": "subscription_mandate",
+        "error_code": "UPI_TIMEOUT",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_1011",
+        "customer_name": "Karan Malhotra",
+        "phone": "+919876545946",
+        "amount_inr": 999,
+        "failure_type": "subscription_mandate",
+        "error_code": "INSUFFICIENT_FUNDS",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_1012",
+        "customer_name": "Anjali Desai",
+        "phone": "+919876551970",
+        "amount_inr": 1499,
+        "failure_type": "subscription_mandate",
+        "error_code": "MANDATE_EXPIRED",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_1013",
+        "customer_name": "Rahul Sharma",
+        "phone": "+919876578492",
+        "amount_inr": 1499,
+        "failure_type": "subscription_mandate",
+        "error_code": "UPI_TIMEOUT",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "sub_fail_1014",
+        "customer_name": "Neha Gupta",
+        "phone": "+919876590472",
+        "amount_inr": 1499,
+        "failure_type": "subscription_mandate",
+        "error_code": "MANDATE_EXPIRED",
+        "days_overdue": 1,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_200",
+        "customer_name": "Amit Patel",
+        "phone": "+919876530828",
+        "amount_inr": 8999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "NETWORK_ERROR",
+        "days_overdue": 0,
+        "user_intent": "DO_NOT_DISTURB"
+    },
+    {
+        "transaction_id": "chk_drop_201",
+        "customer_name": "Kavita Verma",
+        "phone": "+919876529171",
+        "amount_inr": 1999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "OTP_TIMEOUT",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_202",
+        "customer_name": "Rohan Das",
+        "phone": "+919876543078",
+        "amount_inr": 4500,
+        "failure_type": "checkout_abandonment",
+        "error_code": "OTP_TIMEOUT",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_203",
+        "customer_name": "Rahul Sharma",
+        "phone": "+919876528678",
+        "amount_inr": 8999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "USER_DROPOFF",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_204",
+        "customer_name": "Neha Gupta",
+        "phone": "+919876528270",
+        "amount_inr": 8999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "OTP_TIMEOUT",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_205",
+        "customer_name": "Sanjay Kumar",
+        "phone": "+919876531053",
+        "amount_inr": 2499,
+        "failure_type": "checkout_abandonment",
+        "error_code": "USER_DROPOFF",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_206",
+        "customer_name": "Karan Malhotra",
+        "phone": "+919876565804",
+        "amount_inr": 4500,
+        "failure_type": "checkout_abandonment",
+        "error_code": "NETWORK_ERROR",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_207",
+        "customer_name": "Rahul Sharma",
+        "phone": "+919876583271",
+        "amount_inr": 1999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "USER_DROPOFF",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_208",
+        "customer_name": "Kavita Verma",
+        "phone": "+919876571811",
+        "amount_inr": 4500,
+        "failure_type": "checkout_abandonment",
+        "error_code": "USER_DROPOFF",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_209",
+        "customer_name": "Anjali Desai",
+        "phone": "+919876548871",
+        "amount_inr": 2499,
+        "failure_type": "checkout_abandonment",
+        "error_code": "USER_DROPOFF",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2010",
+        "customer_name": "Anjali Desai",
+        "phone": "+919876548849",
+        "amount_inr": 1999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "OTP_TIMEOUT",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2011",
+        "customer_name": "Amit Patel",
+        "phone": "+919876587944",
+        "amount_inr": 8999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "USER_DROPOFF",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2012",
+        "customer_name": "Sanjay Kumar",
+        "phone": "+919876585715",
+        "amount_inr": 1999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "NETWORK_ERROR",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2013",
+        "customer_name": "Anjali Desai",
+        "phone": "+919876530712",
+        "amount_inr": 2499,
+        "failure_type": "checkout_abandonment",
+        "error_code": "OTP_TIMEOUT",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2014",
+        "customer_name": "Kavita Verma",
+        "phone": "+919876581002",
+        "amount_inr": 2499,
+        "failure_type": "checkout_abandonment",
+        "error_code": "NETWORK_ERROR",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2015",
+        "customer_name": "Rohan Das",
+        "phone": "+919876597457",
+        "amount_inr": 2499,
+        "failure_type": "checkout_abandonment",
+        "error_code": "OTP_TIMEOUT",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2016",
+        "customer_name": "Priya Singh",
+        "phone": "+919876518332",
+        "amount_inr": 8999,
+        "failure_type": "checkout_abandonment",
+        "error_code": "OTP_TIMEOUT",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2017",
+        "customer_name": "Amit Patel",
+        "phone": "+919876531121",
+        "amount_inr": 4500,
+        "failure_type": "checkout_abandonment",
+        "error_code": "USER_DROPOFF",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2018",
+        "customer_name": "Sanjay Kumar",
+        "phone": "+919876577205",
+        "amount_inr": 2499,
+        "failure_type": "checkout_abandonment",
+        "error_code": "USER_DROPOFF",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "chk_drop_2019",
+        "customer_name": "Anjali Desai",
+        "phone": "+919876510400",
+        "amount_inr": 4500,
+        "failure_type": "checkout_abandonment",
+        "error_code": "NETWORK_ERROR",
+        "days_overdue": 0,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_300",
+        "customer_name": "TechCorp India",
+        "phone": "+919876536926",
+        "amount_inr": 45000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 20,
+        "user_intent": "STOP"
+    },
+    {
+        "transaction_id": "inv_overdue_301",
+        "customer_name": "TechCorp India",
+        "phone": "+919876522695",
+        "amount_inr": 25000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 45,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_302",
+        "customer_name": "TechCorp India",
+        "phone": "+919876531841",
+        "amount_inr": 25000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 43,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_303",
+        "customer_name": "TechCorp India",
+        "phone": "+919876589738",
+        "amount_inr": 120000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 22,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_304",
+        "customer_name": "Apex Solutions",
+        "phone": "+919876558879",
+        "amount_inr": 25000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 17,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_305",
+        "customer_name": "TechCorp India",
+        "phone": "+919876522127",
+        "amount_inr": 120000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 25,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_306",
+        "customer_name": "Global Traders",
+        "phone": "+919876542008",
+        "amount_inr": 500000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 22,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_307",
+        "customer_name": "TechCorp India",
+        "phone": "+919876548845",
+        "amount_inr": 45000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 23,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_308",
+        "customer_name": "TechCorp India",
+        "phone": "+919876510829",
+        "amount_inr": 25000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 33,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_309",
+        "customer_name": "TechCorp India",
+        "phone": "+919876543259",
+        "amount_inr": 120000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 32,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_3010",
+        "customer_name": "Global Traders",
+        "phone": "+919876544062",
+        "amount_inr": 120000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 21,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_3011",
+        "customer_name": "Global Traders",
+        "phone": "+919876527299",
+        "amount_inr": 120000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 25,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_3012",
+        "customer_name": "TechCorp India",
+        "phone": "+919876573191",
+        "amount_inr": 25000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 15,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_3013",
+        "customer_name": "Global Traders",
+        "phone": "+919876551302",
+        "amount_inr": 120000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 40,
+        "user_intent": "NEUTRAL"
+    },
+    {
+        "transaction_id": "inv_overdue_3014",
+        "customer_name": "Global Traders",
+        "phone": "+919876526879",
+        "amount_inr": 120000,
+        "failure_type": "b2b_invoice",
+        "error_code": "PAYMENT_DELAYED",
+        "days_overdue": 44,
+        "user_intent": "NEUTRAL"
+    }
+]
