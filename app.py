@@ -3,6 +3,66 @@ import pandas as pd
 import plotly.express as px
 from backend.engine import OmniRecoverEngine
 
+# --- RAZORPAY BRANDING CSS INJECTION ---
+st.markdown("""
+<style>
+    /* Main Background */
+    .stApp {
+        background-color: #0A101D;
+        color: #F0F2F5;
+    }
+    
+    /* Sidebar Background */
+    [data-testid="stSidebar"] {
+        background-color: #161F33;
+    }
+    
+    /* Primary Action Buttons (Razorpay Blue) */
+    button[kind="primary"] {
+        background-color: #2D68FE !important;
+        border: none !important;
+        color: white !important;
+        border-radius: 6px !important;
+        font-weight: 600 !important;
+    }
+    
+    button[kind="primary"]:hover {
+        background-color: #1A54EA !important;
+    }
+    
+    /* Metric Cards Styling */
+    div[data-testid="metric-container"] {
+        background-color: #161F33;
+        border: 1px solid #2B3754;
+        border-radius: 8px;
+        padding: 15px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    
+    /* Metric Value Text Color */
+    div[data-testid="stMetricValue"] {
+        color: #2D68FE;
+    }
+    
+    /* Tab Headers */
+    .stTabs [data-baseweb="tab-list"] {
+        background-color: transparent;
+    }
+    .stTabs [data-baseweb="tab"] {
+        color: #8C9BB5;
+    }
+    .stTabs [aria-selected="true"] {
+        color: #2D68FE !important;
+        border-bottom-color: #2D68FE !important;
+    }
+    
+    /* Headers */
+    h1, h2, h3 {
+        color: #FFFFFF !important;
+    }
+</style>
+""", unsafe_allow_html=True)
+# ---------------------------------------
 st.set_page_config(page_title="OmniRecover AI Dashboard", layout="wide")
 
 st.title("OmniRecover AI: Multi-Channel Autonomous Recovery Engine")
